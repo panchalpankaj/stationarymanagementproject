@@ -1,0 +1,217 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.main{
+    width:100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(school.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh ;
+}
+.nevbar{
+    width: 1200px;
+    height: 75px;
+    margin:auto;
+}
+.icon{
+    width:150px;
+    float:left;
+    height:70px;
+}
+.logo{
+    color:rgb(81, 185, 185);
+    font-size:90px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left:80px ;
+    float:left;
+    padding-top: 40px ;
+  
+}
+.logo a{
+    padding-left: 5px;
+    
+    font-size: 150px;
+    padding-bottom:30px;
+     left:5px;
+    
+}
+.logo span{
+    
+    color:rgb(246, 246, 241);
+    font-size: 60px;
+    font-family:  ;
+    padding-left:50px ;
+    padding: 10px;
+
+}
+ .menu{
+     width:400px;
+     float:right;
+     height:70px;
+     
+}
+ul{
+    float:left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+      list-style:none;
+      margin-left: 30px;
+      margin-top: 20px;
+      font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: rgb(81,185,185)
+}
+.search{
+    width:500px;
+    float: right;
+    margin-left:270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width:200px;
+    height:40px;
+    background: transparent;
+    border: 1px solid rgb(81,185 ,185);
+    margin-top:13px ;
+    color:rgb(0, 0, 0);
+    border-right:none;
+    font-size: 20px;
+    float: left;
+    padding: 10px ;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+ 
+}
+.btn{
+    width:20%;
+    height:40px;
+    background: rgb(81, 185, 185);
+    border:2px rgb(81, 185, 185);
+    margin-top:13px;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    border-bottom-right-radius:5px ;
+    border-bottom-right-radius: 5px;
+    
+}
+
+.btn:focus{
+    outline: none;
+
+}    
+.srch :focus{
+    outline: none;
+}
+
+    
+
+.form{
+    
+width: 335px;
+height: 350px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top:170px;
+    left:870px;
+    border-radius: 5px;
+    padding: 15px;
+}
+.form h2{
+    width:318px;
+    font-family: sans-serif;
+    text-align: center;
+    color:rgb(81, 185, 185);
+    font-size: 22px;
+    background-color: rgb(255,255,255);
+    border: radius 15px;
+    margin:1px;
+    padding: 8px;
+
+}
+.form input{
+    width: 340px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgb(81,185 ,185);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+form input:focus{
+    outline: none;
+    
+}
+::placeholder{
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+
+}
+.btnn{
+    width:340px;
+    height:30px;
+    background: rgb(81, 185, 185);
+    border: none;
+    margin-top: 18px;
+    font-size: 22px;
+    border-radius:10px;
+    cursor: pointer;
+    color:rgb(81, 185, 185);
+    transition:  0.6s ease;
+}
+.btnn:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(81, 185, 185);
+
+}
+.btnn a{
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+     font-weight: bold;
+}
+.link{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 17px;
+      color:aliceblue;
+      padding-top: 20px;
+      text-align: center;
+
+}
+.link a{
+    text-decoration: none;
+    color: rgb(81, 185, 185);
+}
+.liw {
+    padding-top: 15px;
+    scroll-padding-bottom: 10px;
+    text-align: center;
+}
+.link :hover a{
+    background: rgb(255, 255, 255);
+    
+    display:;
+    transition: 0.4s ease-in-out;
+}
+.pass{
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+
+}
+
